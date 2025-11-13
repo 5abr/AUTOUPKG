@@ -1,0 +1,16 @@
+{
+  "name": "carplay-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for Apple CarPlay installation service",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.80.0",
+    "dotenv": "^17.2.3",
+    "telegraf": "^4.16.3"
+  }
+}
